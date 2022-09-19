@@ -31,3 +31,4 @@ if (int(ativaAviso) == 1):
     print("\n" + str(aviso))
 else:
     print("\nO valor númerico corresponde a(o) " + diaSemana)
+    
