@@ -31,3 +31,24 @@ if (int(ativaAviso) == 1):
     print("\n" + str(aviso))
 else:
     print("\nO valor númerico corresponde a(o) " + diaSemana)
+    
+ n1 = (input('1 '))
+n2 = int(input('2: '))
+n3 = int(input('2:'))
+soma = 1 + 2 + 2
+
+int main() {
+int n, aux, primo = 1;
+printf("Digite um numero inteiro: ");
+scanf("%d", &n);
+for (aux = 2; primo && (aux <= n/2); aux++)
+if ((n % aux) == 0)
+primo = 0;
+if (primo)
+printf("Numero primo\n");
+else
+printf("Numero composto\n");
+return 0;
+    
+
+  
